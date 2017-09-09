@@ -4,12 +4,10 @@ const mongoose=require('mongoose');
 const flash = require('connect-flash');
 const session=require('express-session');
 const bodyParser = require('body-parser')
-const sgMail = require('@sendgrid/mail');
 const app = express();
 
 const urlencodedParser = bodyParser.urlencoded({ extended: false });
 
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 const User=require('./model/users');
 const config= require('./config/database');
@@ -48,14 +46,6 @@ newUser.save((err)=>{
     res.send('User Registered');
   }
 })
-const msg = {
-  to: req.body.email,
-  from: 'tedxcet2017@gmail.com',
-  subject: 'Kuddos!',
-  text: 'and easy to do anywhere, even with Node.js',
-  html: '<strong>and easy to do anywhere, even with Node.js</strong>',
-};
-
 
 })
 
