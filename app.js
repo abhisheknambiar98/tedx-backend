@@ -28,7 +28,7 @@ mongoose.connection.on('error',(err)=>{
 
 
 app.get('/',(req,res)=>{
-  res.render('register')
+  res.render('index')
 })
 
 app.post('/register',urlencodedParser,(req,res)=>{
@@ -39,14 +39,8 @@ app.post('/register',urlencodedParser,(req,res)=>{
   mobile: req.body.mobile
 
 })
-newUser.save((err)=>{
-  if(err)
-  res.send('User Not registered');
-  else {
-    res.send('User Registered');
-  }
-})
-
+newUser.save();
+res.redirect('/')
 })
 
 app.use(valid());

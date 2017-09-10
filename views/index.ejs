@@ -1,0 +1,1001 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+	<meta name="theme-color" content="#000000">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>TEDxCET</title>
+	    <link rel="shortcut icon" href="assets/images/mini.png">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+
+
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="assets/css/plugins.css" />
+
+        <link rel="stylesheet" href="assets/css/nexa-web-font.css" />
+        <link rel="stylesheet" href="assets/css/opensans-web-font.css" />
+	    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	    <link rel="stylesheet" href="assets/css/font.css" />
+
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+
+	<div>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" id ="collapser" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                       <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <a class="navbar-brand" rel="home" href="#" >
+        		<img id="logoXCET" src="assets/images/tedxcet.png" alt="Logo Image" />
+    		    </a>
+
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="border-color: black;">
+                    <ul class="nav navbar-nav navbar-right">
+                       <li><a href="#schedule" class="at">Schedule</a></li>
+                        <li><a href="#speakers" class="at">Speakers</a></li>
+                        <li><a href="#" class="at" data-toggle="modal" data-target="#regmodal">Register</a></li>
+                        <li><a href="#location" class="at">Venue</a></li>
+			<li><a href="sponsors.html" class="at">Sponsors</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+       <!-- <div>
+        	        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+
+
+                <div class="row">
+                <div class="col-md-3"></div>
+                 <div class="col-md-3"></div>
+                <div class="col-md-3 col-sm-6">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="border-color: black;">
+                    <ul class="nav navbar-nav">
+                        <li class="active" type="button" data-toggle="modal" data-target=".bs-example-modal-lg" style="color: white;"><a>Register</a></p></li>
+
+
+                    </ul>
+                </div>
+                </div>
+                <div class="col-md-3"></div>
+                </div>
+            </div>
+        </nav>
+        </div>-->
+
+
+	<!--<img src="assets/images/tedxcet.png" alt="Logo Image" style="z-index: 9999;position: absolute;overflow: hidden;height: 75px;/* max-height: -webkit-fill-available; */padding-top: 15px;padding-left: 15px;"/>
+	 </div>-->
+
+        <!--Home page style-->
+        <header id="home" class="home">
+			<div class="overlay sections">
+				<div class="container">
+
+					<div class="row">
+						<div class="wrapper">
+							<div class="col-md-6 col-md-offset-3">
+
+								<div class="home-details text-center">
+
+									<div class="logo">
+										<p id="logoText" >ECDYSIS</p>
+
+
+										<img src="assets/images/yu.png" alt="Logo Image" style="max-height:400px;"/>
+									</div>
+
+
+
+									<div class="scroll-down" id="firstScroll">
+										<a href="#about"><i class="fa fa-angle-double-down"></i></a>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </header>
+
+        <!-- ABOUT TEDXCET HERE-->
+        <section id="about" class="about sections">
+            <div class="container">
+
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="wrapper">
+
+
+
+						<div class="col-md-10">
+                    		<div class="heading about-content">
+								<h3>ABOUT TEDXCET</h3>
+								<p>In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. Our event is called TEDxCET, where x = independently organized TED event. At our TEDxCET event, TEDTalks video and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance for the TEDx program, but individual TEDx events, including ours, are self-organized.</p>
+
+							</div>
+                    	</div>
+
+
+
+                    </div>
+                </div>
+
+				<div class="scroll-down">
+										<a href="#theme"><i class="fa fa-angle-double-down" style="color:black;"></i></a>
+				</div>
+
+            </div> <!-- /container -->
+        </section>
+		<!--THEME HERE-->
+
+
+		 <section id="theme" class="portfolio">
+			<div class="overlay sections">
+				<div class="container">
+
+					<div class="heading text-center">
+						<div class="title">
+							<h3>THEME</h3>
+						</div>
+					</div>
+
+					<!-- Example row of columns -->
+
+					<div class="row">
+						<div class="portfolio-wrapper"><p  id="blah">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor urna sed orci elementum, eu cursus dolor pharetra. Phasellus sed ante vel neque hendrerit mattis. Quisque tincidunt sapien lorem, sed ultricies felis porta quis. Fusce et dui suscipit, pharetra mauris eget, facilisis odio. </p>
+
+
+<div class="scroll-down">
+
+								<a href="#location"><i class="fa fa-angle-double-down"></i></a>
+							</div>
+
+						</div>
+					</div>
+				</div> <!-- /container -->
+			</div>
+        </section>
+
+<!--LOCATION HERE-->
+		 <section id="location" class="about sections">
+            <div class="container">
+
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="wrapper">
+					<h3 align="center">VENUE</h3>
+
+
+						<div class="col-md-6">
+                    		<div class="heading about-content">
+
+
+								<div id="map" style="height:300px;width:100%;background-color:black; "></div>
+								<!--<p>In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. Our event is called TEDxCET, where x = independently organized TED event. At our TEDxCET event, TEDTalks video and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance for the TEDx program, but individual TEDx events, including ours, are self-organized.</p> -->
+
+
+							</div>
+                    	</div>
+
+			    <div class="col-md-6">
+                    		<div class="heading about-content">
+								<h4>COLLEGE OF ENGINEERING </h4>
+								<h5>TRIVANDRUM</h5>
+								<h3>9TH NOVEMBER 2017</h3>
+								</div>
+								</div>
+
+
+
+                    </div>
+                </div>
+
+				<div class="scroll-down">
+										<a href="#speakers"><i class="fa fa-angle-double-down" style="color:black;"></i></a>
+				</div>
+
+            </div> <!-- /container -->
+        </section>
+
+
+
+
+		<!-- SPEAKERS HERE -->
+        <section id="speakers" class="portfolio">
+			<div class="overlay sections">
+				<div class="container">
+
+					<div class="heading text-center">
+						<div class="title">
+							<h3>SPEAKERS</h3>
+						</div>
+					</div>
+
+					<!-- Example row of columns -->
+
+					<div class="row">
+						<div class="portfolio-wrapper">
+							<div class="portfolio-item">
+
+								<div class="portfolio-details"  data-toggle="modal" data-target="#odal1">
+									<img id ="speakerIMG" src="assets/images/speakers/speaker.jpg"  onmouseover="hover(this);" onmouseout="unhover(this);" alt="Portfolio" /><!--src="assets/images/speakers/speaker.jpg"-->
+								</div>
+
+							</div>
+
+							<div class="portfolio-item">
+
+								<div class="portfolio-details" data-toggle="modal" data-target="#odal2">
+									<img id ="speakerIMG" src="assets/images/speakers/speaker.jpg"  onmouseover="hover(this);" onmouseout="unhover(this);" alt="Portfolio" /><!--src="assets/images/speakers/speaker.jpg"-->
+								</div>
+
+							</div>
+
+							<div class="portfolio-item">
+
+								<div class="portfolio-details"  data-toggle="modal" data-target="#odal3">
+									<img id ="speakerIMG" src="assets/images/speakers/speaker.jpg"  onmouseover="hover(this);" onmouseout="unhover(this);" alt="Portfolio" /><!--src="assets/images/speakers/speaker.jpg"-->
+								</div>
+
+							</div>
+
+							<div class="portfolio-item">
+
+								<div class="portfolio-details"  data-toggle="modal" data-target="#odal4">
+									<img id ="speakerIMG" src="assets/images/speakers/speaker.jpg"  onmouseover="hover(this);" onmouseout="unhover(this);" alt="Portfolio" /><!--src="assets/images/speakers/speaker.jpg"-->
+								</div>
+
+							</div>
+
+							<div class="portfolio-item">
+
+								<div class="portfolio-details"  data-toggle="modal" data-target="#odal5">
+									<img id ="speakerIMG" src="assets/images/speakers/speaker.jpg"  onmouseover="hover(this);" onmouseout="unhover(this);" alt="Portfolio" /><!--src="assets/images/speakers/speaker.jpg"-->
+								</div>
+
+							</div>
+
+							<div class="portfolio-item">
+
+								<div class="portfolio-details"  data-toggle="modal" data-target="#odal6">
+									<img id ="speakerIMG" src="assets/images/speakers/speaker.jpg"  onmouseover="hover(this);" onmouseout="unhover(this);" alt="Portfolio" /><!--src="assets/images/speakers/speaker.jpg"-->
+								</div>
+
+							</div>
+							<div class="portfolio-item">
+
+								<div class="portfolio-details"  data-toggle="modal" data-target="#odal7">
+									<img id ="speakerIMG" src="assets/images/speakers/speaker.jpg"  onmouseover="hover(this);" onmouseout="unhover(this);" alt="Portfolio" /><!--src="assets/images/speakers/speaker.jpg"-->
+								</div>
+
+							</div>
+							<div class="portfolio-item">
+
+								<div class="portfolio-details"  data-toggle="modal" data-target="#odal8">
+									<img id ="speakerIMG" src="assets/images/speakers/speaker.jpg"  onmouseover="hover(this);" onmouseout="unhover(this);" alt="Portfolio" /><!--src="assets/images/speakers/speaker.jpg"-->
+								</div>
+
+							</div>
+							<div class="portfolio-item">
+
+								<div class="portfolio-details"   data-toggle="modal" data-target="#odal9">
+									<img id ="speakerIMG" src="assets/images/speakers/speaker.jpg"  onmouseover="hover(this);" onmouseout="unhover(this);" alt="Portfolio" /><!--src="assets/images/speakers/speaker.jpg"-->
+								</div>
+
+							</div>
+							<div class="portfolio-item">
+
+								<div class="portfolio-details"  data-toggle="modal" data-target="#odal10">
+									<img id ="speakerIMG" src="assets/images/speakers/speaker.jpg"  onmouseover="hover(this);" onmouseout="unhover(this);" alt="Portfolio" /><!--src="assets/images/speakers/speaker.jpg"-->
+								</div>
+
+							</div>
+
+
+							<div class="scroll-down">
+
+								<a href="#schedule"><i class="fa fa-angle-double-down"></i></a>
+							</div>
+
+						</div>
+					</div>
+				</div> <!-- /container -->
+			</div>
+        </section>
+<!--SCHEDULE HERE-->
+		<section id="schedule" class="about sections">
+            <div class="container">
+
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="wrapper">
+
+
+
+						<div class="col-md-10">
+                    		<div class="heading about-content">
+								<h3>SCHEDULE</h3>
+								<table class="table-fill">
+<thead>
+<tr>
+<th class="text-left">TIME</th>
+<th class="text-left">EVENT</th>
+</tr>
+</thead>
+<tbody class="table-hover">
+<tr>
+<td class="text-left">January</td>
+<td class="text-left">EVENT</td>
+</tr>
+<tr>
+<td class="text-left">February</td>
+<td class="text-left">EVENT</td>
+</tr>
+<tr>
+<td class="text-left">March</td>
+<td class="text-left">EVENT</td>
+</tr>
+<tr>
+<td class="text-left">April</td>
+<td class="text-left">EVENT</td>
+</tr>
+<tr>
+<td class="text-left">May</td>
+<td class="text-left">EVENT</td>
+</tr>
+</tbody>
+</table>
+
+							</div>
+                    	</div>
+
+
+
+                    </div>
+                </div>
+
+				<div class="scroll-down">
+										<a href="#contact"><i class="fa fa-angle-double-down" style="color:black;"></i></a>
+				</div>
+
+            </div> <!-- /container -->
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!--REGISTRATION MODAL HERE-->
+	    <div id="regmodal" class="modal fade z-depth-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header"  >
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="false">&times;  </button>
+
+
+      </div>
+      <div class="modal-body" style="margin:auto;" align="center">
+        <h3 class="mod" align="center">REGISTRATION</h3>
+
+        <form method="post" action="/register">
+        <span style="color:white;font-style:bold;font-family:'nexa_boldregular';">NAME&nbsp&nbsp&nbsp<input type ="text" placeholder="" required name="name" > </span><hr>
+        <span style="color:white;font-style:bold;font-family:'nexa_boldregular';">ORGANISATION&nbsp&nbsp&nbsp<input type ="text" placeholder="" required name="organisation" > </span><hr>
+        <span style="color:white;font-style:bold;font-family:'nexa_boldregular';">EMAIL&nbsp&nbsp&nbsp<input type="email" placeholder="" required name="email"></span><hr>
+        <span style="color:white;font-style:bold;font-family:'nexa_boldregular';">MOBILE&nbsp&nbsp&nbsp<input type="tel" placeholder="" required name="mobile"></span><hr>
+        <input type="submit" value="Register" class="z-depth-4" style="background-color: white;border-radius: 0px;font-color:black;font-family: 'nexa_boldregular'">
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+	    <!--MODALS HERE-->
+	    <div id="odal1" class="modal fade z-depth-4" tabindex="-1" role="dialog"  aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"  >
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+
+        <img src="assets/images/speakers/speaker.jpg" class="img-responsive z-depth-4" height="250px" width="250px" style="margin:auto;">
+
+      </div>
+      <div class="modal-body">
+        <h3 class="mod" align="center">SPEAKER</h3>
+        <h5 class="mod" align="center">Profession</h5>
+        <p style="color:white;padding:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor urna sed orci elementum, eu cursus dolor pharetra. Phasellus sed ante vel neque hendrerit mattis. Quisque tincidunt sapien lorem, sed ultricies felis porta quis. Fusce et dui suscipit, pharetra mauris eget, facilisis odio. </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+	    <div id="odal2" class="modal fade z-depth-4" tabindex="-1" role="dialog"  aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"  >
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+
+        <img src="assets/images/speakers/speaker.jpg" class="img-responsive z-depth-4" height="250px" width="250px" style="margin:auto;">
+
+      </div>
+      <div class="modal-body">
+        <h3 class="mod" align="center">SPEAKER</h3>
+        <h5 class="mod" align="center">Profession</h5>
+        <p style="color:white;padding:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor urna sed orci elementum, eu cursus dolor pharetra. Phasellus sed ante vel neque hendrerit mattis. Quisque tincidunt sapien lorem, sed ultricies felis porta quis. Fusce et dui suscipit, pharetra mauris eget, facilisis odio. </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+	    <div id="odal3" class="modal fade z-depth-4" tabindex="-1" role="dialog"  aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"  >
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+
+        <img src="assets/images/speakers/speaker.jpg" class="img-responsive z-depth-4" height="250px" width="250px" style="margin:auto;">
+
+      </div>
+      <div class="modal-body">
+        <h3 class="mod" align="center">SPEAKER</h3>
+        <h5 class="mod" align="center">Profession</h5>
+        <p style="color:white;padding:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor urna sed orci elementum, eu cursus dolor pharetra. Phasellus sed ante vel neque hendrerit mattis. Quisque tincidunt sapien lorem, sed ultricies felis porta quis. Fusce et dui suscipit, pharetra mauris eget, facilisis odio. </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+	    <div id="odal4" class="modal fade z-depth-4" tabindex="-1" role="dialog"  aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"  >
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+
+        <img src="assets/images/speakers/speaker.jpg" class="img-responsive z-depth-4" height="250px" width="250px" style="margin:auto;">
+
+      </div>
+      <div class="modal-body">
+        <h3 class="mod" align="center">SPEAKER</h3>
+        <h5 class="mod" align="center">Profession</h5>
+        <p style="color:white;padding:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor urna sed orci elementum, eu cursus dolor pharetra. Phasellus sed ante vel neque hendrerit mattis. Quisque tincidunt sapien lorem, sed ultricies felis porta quis. Fusce et dui suscipit, pharetra mauris eget, facilisis odio. </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+	    <div id="odal5" class="modal fade z-depth-4" tabindex="-1" role="dialog"  aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"  >
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+
+        <img src="assets/images/speakers/speaker.jpg" class="img-responsive z-depth-4" height="250px" width="250px" style="margin:auto;">
+
+      </div>
+      <div class="modal-body">
+        <h3 class="mod" align="center">SPEAKER</h3>
+        <h5 class="mod" align="center">Profession</h5>
+        <p style="color:white;padding:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor urna sed orci elementum, eu cursus dolor pharetra. Phasellus sed ante vel neque hendrerit mattis. Quisque tincidunt sapien lorem, sed ultricies felis porta quis. Fusce et dui suscipit, pharetra mauris eget, facilisis odio. </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+	    <div id="odal6" class="modal fade z-depth-4" tabindex="-1" role="dialog"  aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"  >
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+
+        <img src="assets/images/speakers/speaker.jpg" class="img-responsive z-depth-4" height="250px" width="250px" style="margin:auto;">
+
+      </div>
+      <div class="modal-body">
+        <h3 class="mod" align="center">SPEAKER</h3>
+        <h5 class="mod" align="center">Profession</h5>
+        <p style="color:white;padding:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor urna sed orci elementum, eu cursus dolor pharetra. Phasellus sed ante vel neque hendrerit mattis. Quisque tincidunt sapien lorem, sed ultricies felis porta quis. Fusce et dui suscipit, pharetra mauris eget, facilisis odio. </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+	    <div id="odal7" class="modal fade z-depth-4" tabindex="-1" role="dialog"  aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"  >
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+
+        <img src="assets/images/speakers/speaker.jpg" class="img-responsive z-depth-4" height="250px" width="250px" style="margin:auto;">
+
+      </div>
+      <div class="modal-body">
+        <h3 class="mod" align="center">SPEAKER</h3>
+        <h5 class="mod" align="center">Profession</h5>
+        <p style="color:white;padding:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor urna sed orci elementum, eu cursus dolor pharetra. Phasellus sed ante vel neque hendrerit mattis. Quisque tincidunt sapien lorem, sed ultricies felis porta quis. Fusce et dui suscipit, pharetra mauris eget, facilisis odio. </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+	    <div id="odal8" class="modal fade z-depth-4" tabindex="-1" role="dialog"  aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"  >
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+
+        <img src="assets/images/speakers/speaker.jpg" class="img-responsive z-depth-4" height="250px" width="250px" style="margin:auto;">
+
+      </div>
+      <div class="modal-body">
+        <h3 class="mod" align="center">SPEAKER</h3>
+        <h5 class="mod" align="center">Profession</h5>
+        <p style="color:white;padding:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor urna sed orci elementum, eu cursus dolor pharetra. Phasellus sed ante vel neque hendrerit mattis. Quisque tincidunt sapien lorem, sed ultricies felis porta quis. Fusce et dui suscipit, pharetra mauris eget, facilisis odio. </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+	    <div id="odal9" class="modal fade z-depth-4" tabindex="-1" role="dialog"  aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"  >
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+
+        <img src="assets/images/speakers/speaker.jpg" class="img-responsive z-depth-4" height="250px" width="250px" style="margin:auto;">
+
+      </div>
+      <div class="modal-body">
+        <h3 class="mod" align="center">SPEAKER</h3>
+        <h5 class="mod" align="center">Profession</h5>
+        <p style="color:white;padding:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor urna sed orci elementum, eu cursus dolor pharetra. Phasellus sed ante vel neque hendrerit mattis. Quisque tincidunt sapien lorem, sed ultricies felis porta quis. Fusce et dui suscipit, pharetra mauris eget, facilisis odio. </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+	    <div id="odal10" class="modal fade z-depth-4" tabindex="-1" role="dialog"  aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"  >
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+
+        <img src="assets/images/speakers/speaker.jpg" class="img-responsive z-depth-4" height="250px" width="250px" style="margin:auto;">
+
+      </div>
+      <div class="modal-body">
+        <h3 class="mod" align="center">SPEAKER</h3>
+        <h5 class="mod" align="center">Profession</h5>
+        <p style="color:white;padding:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor urna sed orci elementum, eu cursus dolor pharetra. Phasellus sed ante vel neque hendrerit mattis. Quisque tincidunt sapien lorem, sed ultricies felis porta quis. Fusce et dui suscipit, pharetra mauris eget, facilisis odio. </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+	  <!--SPONSORS HERE-->
+
+
+
+	    <section id="sponsors" class="portfolio">
+			<div class="overlay sections">
+				<div class="container">
+
+					<div class="heading text-center">
+						<div class="title">
+							<h3>Sponsors</h3>
+						</div>
+					</div>
+
+					<!-- Example row of columns -->
+
+					<div class="row">
+						<div class="portfolio-wrapper">
+							<div class="portfolio-item">
+
+								<div class="portfolio-details">
+									<a href="assets/images/speakers/1.png" class="portfolio-img"><img src="assets/images/portfolio/1.png" alt="Portfolio" /></a>
+								</div>
+
+							</div>
+
+							<div class="portfolio-item">
+
+								<div class="portfolio-details">
+									<a href="assets/images/speakers/2.png" class="portfolio-img"><img src="assets/images/portfolio/2.png" alt="Portfolio" /></a>
+								</div>
+
+							</div>
+
+							<div class="portfolio-item">
+
+								<div class="portfolio-details">
+									<a href="assets/images/speakers/3.png" class="portfolio-img"><img src="assets/images/portfolio/3.png" alt="Portfolio" /></a>
+								</div>
+
+							</div>
+
+							<div class="portfolio-item">
+
+								<div class="portfolio-details">
+									<a href="assets/images/speakers/4.png" class="portfolio-img"><img src="assets/images/portfolio/4.png" alt="Portfolio" /></a>
+								</div>
+
+							</div>
+
+							<div class="portfolio-item">
+
+								<div class="portfolio-details">
+									<a href="assets/images/speakers/5.png" class="portfolio-img"><img src="assets/images/portfolio/5.png" alt="Portfolio" /></a>
+								</div>
+
+							</div>
+
+							<div class="portfolio-item">
+
+								<div class="portfolio-details">
+									<a href="assets/images/speakers/6.png" class="portfolio-img"><img src="assets/images/portfolio/6.png" alt="Portfolio" /></a>
+								</div>
+
+							</div>
+							<div class="portfolio-item">
+
+								<div class="portfolio-details">
+									<a href="assets/images/speakers/7.png" class="portfolio-img"><img src="assets/images/portfolio/7.png" alt="Portfolio" /></a>
+								</div>
+
+							</div>
+							<div class="portfolio-item">
+
+								<div class="portfolio-details">
+									<a href="assets/images/speakers/8.png" class="portfolio-img"><img src="assets/images/portfolio/8.png" alt="Portfolio" /></a>
+								</div>
+
+							</div>
+							<div class="portfolio-item">
+
+								<div class="portfolio-details">
+									<a href="assets/images/speakers/9.png" class="portfolio-img"><img src="assets/images/portfolio/9.png" alt="Portfolio" /></a>
+								</div>
+
+							</div>
+							<div class="portfolio-item">
+
+								<div class="portfolio-details">
+									<a href="assets/images/speakers/10.png" class="portfolio-img"><img src="assets/images/portfolio/10.png" alt="Portfolio" /></a>
+								</div>
+
+							</div>
+
+
+							<div class="scroll-down">
+
+								<a href="#contact"><i class="fa fa-angle-double-down"></i></a>
+							</div>
+
+						</div>
+					</div>
+				</div> <!-- /container -->
+			</div>
+        </section>
+
+
+		<section id="contact" class="contact sections">
+			<!--<div id="map" style="height:400px;width:100%;background-color:black; "></div>-->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="contact-details text-center">
+
+
+
+							<div class="contact-category">
+								<div class="social">
+								<h6>EMAIL : tedxcet2017@gmail.com</h6>
+								<h5>CONTACT US</h5>
+<h6>Aju Ani Justus  95265 64055</h6>
+<h6>Krishnendu N  8129457839</h6>
+
+									<h4>FOLLOW US ON SOCIAL MEDIA</h4>
+									<a href="https://www.facebook.com/tedxcet/"><i class="fa fa-facebook"></i></a>
+									<a href="https://twitter.com/tedxcet"><i class="fa fa-twitter"></i></a>
+									<a href="https://www.instagram.com/tedxcet"><i class="fa fa-instagram"></i></a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+		</section>
+
+
+
+
+
+        <!--Footer-->
+        <footer id="footer" class="footer">
+            <div class="container">
+            	<div class="row">
+            		<div class="col-md-12">
+            			<div class="copyright text-center">
+            				<p>This independent TEDx event is operated under license from TED.</p>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+        </footer>
+
+
+
+		<script>
+  			function initMap() {
+        	// Styles a map in night mode.
+        	var map = new google.maps.Map(document.getElementById('map'), {
+          	center: {lat: 8.546096, lng: 76.906059},
+            zoom: 18,mapTypeId:google.maps.MapTypeId.ROADMAP,disableDefaultUI: true,
+
+          	styles: [
+  {
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#b02929"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#212121"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.country",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.locality",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#bdbdbd"
+      }
+    ]
+  },
+  {
+    "featureType": "landscape",
+    "stylers": [
+      {
+        "color": "#000000"
+      },
+      {
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#181818"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#1b1b1b"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#2c2c2c"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#8a8a8a"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#373737"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#3c3c3c"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway.controlled_access",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#4e4e4e"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "featureType": "transit",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#000000"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#3d3d3d"
+      }
+    ]
+  }
+]
+        });
+      }
+
+    		</script>
+    		<script async defer
+    		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAM52J91ygxyEDxmfK6YIHymkELKRtCdPU&callback=initMap">
+    		</script>
+
+
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+        <script src="assets/js/plugins.js"></script>
+		<script src="assets/js/jquery.magnific-popup.js"></script>
+
+
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
